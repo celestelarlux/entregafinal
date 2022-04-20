@@ -1,0 +1,379 @@
+/*resets*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* heather*/
+
+.heather_nav {
+  display: flex;
+  justify-items: space-evenly;
+}
+
+.heather_nav_lista {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  margin: 20px;
+  border: solid 1px #9f5864;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+li:hover {
+  background-color: #9b525298;
+}
+
+header {
+  background-color: #d1b6b4;
+}
+
+li {
+  display: inline;
+}
+
+/*body*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #f5eceb;
+}
+
+footer {
+  background-color: #d1b6b4;
+}
+
+/*index*/
+a {
+  text-decoration: none;
+  color: #6c3057;
+}
+
+.video-coder-bootstrap {
+  margin: 0 35%;
+  height: 25%;
+  width: 25%;
+  padding: 5px 0px 20px 20px;
+}
+
+.conoce {
+  padding: 10px 0px 10px 10px;
+  margin: 0 15%;
+  color: #d35d5d;
+}
+
+.obras-abstractas {
+  padding-left: 20px;
+  margin-top: 5px;
+  margin: 0 40%;
+  color: #9f5864;
+}
+
+/*informacion*/
+
+.maestros_texto {
+  padding: 10px;
+  margin: 10px;
+}
+
+.text-end {
+  text-align: start !important;
+  font-size: 12px;
+  color: #3d4144;
+}
+
+.ph-maestros {
+  padding: 10px;
+}
+
+.acerca-de-bootstrap {
+  color: #9f5864;
+  padding-left: 10px;
+}
+
+.datos-curiosos {
+  color: #9f5864;
+}
+
+.profes-arte-bootstrap {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.figure-caption-text-end {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.acerca-de-bootstrap {
+  padding-left: 10px;
+}
+
+/*galeria*/
+
+.galeria {
+  color: #9f5864;
+  padding: 10px 0px 5px 120px;
+}
+
+.galeria2 {
+  color: #de6666;
+  padding: 0px 0px 5px 169px;
+}
+
+.imagenes-galeria-oleo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hombre-oleo1 {
+  grid-row: 1/2;
+  grid-column: 2;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.perfil-mujer-oleo1 {
+  grid-column: span 1;
+  grid-row: span 1;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.arboles {
+  width: 100%;
+  height: 100%;
+  grid-row: 1/2;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.rostro-hombre-grafito {
+  height: 100%;
+  width: 100%;
+  grid-row: 3;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.florcitas {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.hombre-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.perfil-mujer-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.arboles:hover {
+  transform: translate(10px, 10px);
+}
+
+.florcitas:hover {
+  transform: translate(10px, 10px);
+}
+
+.rostro-hombre-grafito:hover {
+  transform: translate(10px, 10px);
+}
+
+/* ubicacion*/
+.ubicacion-mapa {
+  padding: 10px 10px 10px 10px;
+  color: #9f5864;
+}
+
+.miami {
+  padding: 8px 8px 8px 8px;
+}
+
+.mapita {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.ubicacion-boot {
+  padding-left: 10px;
+}
+
+/*esculturas*/
+
+.hermosa-escultura-mujer {
+  color: #9f5864;
+}
+
+.escultura-rostro-mujer {
+  color: #9f5864;
+}
+
+.hermoso-paisaje {
+  color: #9f5864;
+}
+
+.hermoso-paisaje {
+  text-align: center;
+}
+
+.hermosa-escultura-mujer {
+  text-align: center;
+}
+
+.paisaje-bootstrap {
+  padding-bottom: 20px;
+}
+
+/*contacto*/
+
+.contacto-cuadrados {
+  padding: 15px 0px 20px 20px;
+}
+
+.contacto-x2 {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contacto-boot2 {
+  padding-left: 20px;
+}
+
+.contacto-boot {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.opinion {
+  color: #9f5864;
+  padding-left: 20px;
+}
+
+/*Animaciones*/
+
+@keyframes colores-primarios {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+.colores-primarios {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 50px;
+  animation-name: colores-primarios;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+.colores-primarios-1 {
+  color: #9f5864;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/*obras*/
+
+.rostro-grafito-bootstrap {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.obras-reconocidas {
+  color: #9f5864;
+}
+
+/* Mediaqueris*/
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: fuchsia;
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+  .card {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .heather_nav {
+    flex-direction: column;
+    padding: 1px;
+  }
+  .heather_nav_lista {
+    flex-direction: column;
+  }
+  .footer-index {
+    flex-direction: column;
+  }
+  .heather {
+    flex-direction: colum;
+    flex-wrap: wrap;
+  }
+  .video-coder {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .heather_tamanio {
+    flex-direction: column;
+  }
+  .heather_logo {
+    flex-direction: column;
+  }
+  .imagenes-galeria-oleo {
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+  .heather_nav {
+    display: colum;
+    justify-content: center;
+  }
+}
